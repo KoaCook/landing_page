@@ -39,16 +39,19 @@ export const metadata = {
 };
 
 function HomePage() {
+    const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: "KoaCook",
+    url: "https://koacook.com/",
+  }
+    
     return (
         <div>
-            <script type="application/ld+json">
-                  {
-                    "@context": "https://schema.org",
-                    "@type": "WebSite",
-                    "name": "KoaCook",
-                    "url": "https://koacook.com/"
-                  }
-            </script>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+              />
             <h1 className="opacity-0 fixed -top-screen">KoaCook - Simplify Your Restaurant Management</h1>
             <section
                 className="py-36 md:h-auto md:py-0 flex items-center relative bg-[rgb(59_130_246/0.05)] dark:bg-[rgb(59_130_246/0.1)]"
