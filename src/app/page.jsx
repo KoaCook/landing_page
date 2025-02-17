@@ -16,7 +16,7 @@ export const metadata = {
         canonical: 'https://koacook.com',
     },
     openGraph: {
-        title: 'KoaCook - Simplify, Streamline, Succeed',
+        title: 'KoaCook - Simplify Your Restaurant Management',
         description: 'All-in-one powerful platform to manage your restaurant efficiently. 🚀',
         url: 'https://koacook.com',
         siteName: 'KoaCook',
@@ -32,7 +32,7 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'KoaCook - Simplify, Streamline, Succeed',
+        title: 'KoaCook - Simplify Your Restaurant Management',
         description: 'All-in-one powerful platform to manage your restaurant efficiently. 🚀',
         images: ['https://koacook.com/images/banner.png'],
     },
@@ -41,7 +41,7 @@ export const metadata = {
 function HomePage() {
     return (
         <div>
-            <h1 className="opacity-0 fixed -top-screen">KoaCook - Simplify, Streamline, Succeed</h1>
+            <h1 className="opacity-0 fixed -top-screen">KoaCook - Simplify Your Restaurant Management</h1>
             <section
                 className="py-36 md:h-auto md:py-0 flex items-center relative bg-[rgb(59_130_246/0.05)] dark:bg-[rgb(59_130_246/0.1)]"
                 id="home"
