@@ -40,58 +40,20 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className="md:col-span-4 md:mt-0 mt-8">
-                            <ul className="list-none foot-icon md:text-end text-center">
-                                {/* <li className="inline ms-1">
-                  <Link
-                    href="https://1.envato.market/upwind-next"
-                    target="_blank"
-                    className="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-[#3b82f6] bg-slate-800 dark:bg-gray-900 hover:bg-[#3b82f6] dark:hover:bg-[#3b82f6] text-gray-400 hover:text-white"
-                  >
-                     <Unicons.UilShoppingCart width="17px" />
-                  </Link>
-                </li> */}
-                                <li className="inline ms-1">
-                                    <a
-                                        href="https://www.linkedin.com/company/koacookofficial/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-[#3b82f6] bg-slate-800 dark:bg-gray-900 hover:bg-[#3b82f6] dark:hover:bg-[#3b82f6] text-gray-400 hover:text-white"
-                                    >
-                                        <Unicons.UilLinkedin width="17px" />
-                                    </a>
-                                </li>
-                                <li className="inline ms-1">
-                                    <a
-                                        href="https://x.com/koacookofficial"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-[#3b82f6] bg-slate-800 dark:bg-gray-900 hover:bg-[#3b82f6] dark:hover:bg-[#3b82f6] text-gray-400 hover:text-white"
-                                    >
-                                        <Unicons.UilTwitter width="17px" />
-                                    </a>
-                                </li>
-                                <li className="inline ms-1">
-                                    <a
-                                        href="https://www.instagram.com/koacookofficial"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-[#3b82f6] bg-slate-800 dark:bg-gray-900 hover:bg-[#3b82f6] dark:hover:bg-[#3b82f6] text-gray-400 hover:text-white"
-                                    >
-                                        <Unicons.UilInstagram width="17px" />
-                                    </a>
-                                </li>
-                                <li className="inline ms-1">
-                                    <a
-                                        href="https://www.facebook.com/koacookofficial"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="btn btn-icon btn-sm border rounded-md border-slate-700 dark:border-slate-800 hover:border-[#3b82f6] bg-slate-800 dark:bg-gray-900 hover:bg-[#3b82f6] dark:hover:bg-[#3b82f6] text-gray-400 hover:text-white"
-                                    >
-                                        <Unicons.UilFacebookF width="17px" />
-                                    </a>
-                                </li>
-                            </ul>
+                        <div
+                            className="md:col-span-4 md:mt-0 mt-8"
+                            style={{ display: 'flex', justifyContent: 'flex-end' }}
+                        >
+                            <a
+                                href="https://www.producthunt.com/posts/koacook?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-koacook"
+                                target="_blank"
+                            >
+                                <img
+                                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=902901&theme=light&t=1740125959473"
+                                    alt="KoaCook - All&#0045;in&#0045;one&#0032;powerful&#0032;platform&#0032;to&#0032;manage&#0032;your&#0032;BnB&#0046;&#0032; | Product Hunt"
+                                    style={{ width: 'auto', height: '46px' }}
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
