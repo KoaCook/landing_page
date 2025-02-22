@@ -49,7 +49,7 @@ export default function Footer() {
                                 target="_blank"
                             >
                                 <img
-                                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=902901&theme=light&t=1740125959473"
+                                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=902901&theme=light&t=1740218849292"
                                     alt="KoaCook - All&#0045;in&#0045;one&#0032;powerful&#0032;platform&#0032;to&#0032;manage&#0032;your&#0032;BnB&#0046;&#0032; | Product Hunt"
                                     style={{ width: 'auto', height: '46px' }}
                                 />
