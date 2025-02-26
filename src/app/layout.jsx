@@ -9,6 +9,7 @@ import './assets/scss/tailwind.scss';
 import './assets/scss/icons.scss';
 import Footer from './component/Footer';
 import Switcher from './component/Switcher';
+import Console from './component/Console';
 
 const rubic = Rubik({
     subsets: ['latin'],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
 
                     <Footer />
                     <Switcher />
+                    <Console />
                 </Wrapper>
             </body>
         </html>
